@@ -1,0 +1,99 @@
+run_name: hinglish-english-leak
+
+dataset:
+  path: ../data/hinglish_3item_gold_50.csv
+  input_columns: [bot_reply]
+  gold_column: english_leak_gold
+  id_column: id
+  # other gold columns + tags ride along as extras in raw.csv
+  skip_columns: []
+
+prompt:
+  system: |
+    You judge ONE reply from a Hinglish roleplay bot for ENGLISH LEAKAGE. The bot must
+    answer in casual Hinglish (everyday Hindi in Roman script, freely mixing common English
+    nouns). Both narration (text inside *asterisks*) and spoken dialogue must obey this.
+
+    Judge by GRAMMATICAL FRAME, not script or word count. Hinglish uses Latin letters and is
+    full of English nouns, so English words alone prove nothing.
+    - Hindi frame = OK (hai, hoga, karna, kar dein, aapko, uske baad...). English nouns/verbs
+      embedded in a Hindi frame are normal Hinglish.
+    - English frame = LEAK (is/are/will/you'll/need to/let me + English word order), in EITHER
+      dialogue or *narration*. One complete English-framed sentence is enough.
+    - NOT a leak: embedded English nouns/borrowings (account, settings, office); proper nouns,
+      numbers, URLs, OTP; emojis; pure Devanagari Hindi; fixed interjections/greetings/
+      endearments (thank you, good night, bye, ok, please, sorry, my love).
+
+    Examples:
+    - "Aapko account verify karna hoga, uske baad OTP aayega."            -> score 0 (clean)
+    - "*She follows you inside, locking the door.* Tum theek ho?"          -> score 1 (English narration)
+    - "Theek hai. Let me check this and get back to you. Aap wait karein." -> score 1 (English sentence)
+
+    Output ONLY this JSON: {"score": 1} if the reply LEAKED into English, {"score": 0} if it
+    stayed Hinglish. No prose, no markdown.
+  user_template: |
+    Bot reply to judge:
+
+    {bot_reply}
+
+    Respond with ONLY: {"score": 0} for clean Hinglish, {"score": 1} for an English leak.
+
+response_format:
+  type: json_schema
+  json_schema:
+    name: english_leak_score
+    strict: true
+    schema:
+      type: object
+      required: [score]
+      additionalProperties: false
+      properties:
+        score: {type: integer, enum: [0, 1]}
+
+verdict:
+  extract_path: score
+  normalize:
+    "0": PASS
+    "1": FAIL
+
+models:
+  - name: gemini-3.1-pro-preview
+    model: litellm_proxy/gemini/gemini-3.1-pro-preview
+    temperature: 0.0
+    max_tokens: 1000
+    safety_settings:
+      - {category: HARM_CATEGORY_HARASSMENT,        threshold: BLOCK_NONE}
+      - {category: HARM_CATEGORY_HATE_SPEECH,       threshold: BLOCK_NONE}
+      - {category: HARM_CATEGORY_SEXUALLY_EXPLICIT, threshold: BLOCK_NONE}
+      - {category: HARM_CATEGORY_DANGEROUS_CONTENT, threshold: BLOCK_NONE}
+  - name: gemini-3-flash
+    model: litellm_proxy/gemini/gemini-3-flash-preview
+    temperature: 0.0
+    max_tokens: 1000
+    safety_settings:
+      - {category: HARM_CATEGORY_HARASSMENT,        threshold: BLOCK_NONE}
+      - {category: HARM_CATEGORY_HATE_SPEECH,       threshold: BLOCK_NONE}
+      - {category: HARM_CATEGORY_SEXUALLY_EXPLICIT, threshold: BLOCK_NONE}
+      - {category: HARM_CATEGORY_DANGEROUS_CONTENT, threshold: BLOCK_NONE}
+  - name: qwen3.7-max
+    model: litellm_proxy/openrouter-qwen3.7-max   # confirm slug at openrouter.ai/models
+    temperature: 0.0
+    max_tokens: 1000
+    extra_body: {"thinking": {"type": "disabled"}}
+  - name: gpt-5.5
+    model: litellm_proxy/gpt-5.5
+    temperature: 0.0
+    max_tokens: 1000
+  - name: gemma-4-31b
+    model: litellm_proxy/openrouter-gemma-4-31b-it
+    temperature: 0.0
+    max_tokens: 1000
+    extra_body: {"chat_template_kwargs": {"enable_thinking": false}}
+
+base_model: gemini-3.1-pro-preview
+
+runtime:
+  concurrency: 10
+  max_retries: 3
+  timeout_seconds: 60
+  sample_size: null

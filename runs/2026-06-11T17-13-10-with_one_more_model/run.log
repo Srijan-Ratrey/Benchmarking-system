@@ -1,0 +1,639 @@
+2026-06-11 17:13:10,234 INFO benchmarks: Run dir: /Users/kavana/Documents/watchdog/benchmarks/runs/2026-06-11T17-13-10-with_one_more_model
+2026-06-11 17:13:10,234 INFO benchmarks: Examples: 50 | Pairs: ['gemini-3.1-pro-preview', 'gemini-3-flash', 'qwen3.7-max', 'gpt-5.5', 'gemma-4-31b']
+2026-06-11 17:13:10,234 INFO benchmarks.core.runner: === running pair: gemini-3.1-pro-preview (litellm_proxy/gemini/gemini-3.1-pro-preview) ===
+2026-06-11 17:13:10,239 INFO LiteLLM: 
+LiteLLM completion() model= gemini/gemini-3.1-pro-preview; provider = litellm_proxy
+2026-06-11 17:13:10,239 INFO LiteLLM: 
+LiteLLM completion() model= gemini/gemini-3.1-pro-preview; provider = litellm_proxy
+2026-06-11 17:13:10,239 INFO LiteLLM: 
+LiteLLM completion() model= gemini/gemini-3.1-pro-preview; provider = litellm_proxy
+2026-06-11 17:13:10,239 INFO LiteLLM: 
+LiteLLM completion() model= gemini/gemini-3.1-pro-preview; provider = litellm_proxy
+2026-06-11 17:13:10,239 INFO LiteLLM: 
+LiteLLM completion() model= gemini/gemini-3.1-pro-preview; provider = litellm_proxy
+2026-06-11 17:13:10,239 INFO LiteLLM: 
+LiteLLM completion() model= gemini/gemini-3.1-pro-preview; provider = litellm_proxy
+2026-06-11 17:13:10,239 INFO LiteLLM: 
+LiteLLM completion() model= gemini/gemini-3.1-pro-preview; provider = litellm_proxy
+2026-06-11 17:13:10,239 INFO LiteLLM: 
+LiteLLM completion() model= gemini/gemini-3.1-pro-preview; provider = litellm_proxy
+2026-06-11 17:13:10,240 INFO LiteLLM: 
+LiteLLM completion() model= gemini/gemini-3.1-pro-preview; provider = litellm_proxy
+2026-06-11 17:13:10,240 INFO LiteLLM: 
+LiteLLM completion() model= gemini/gemini-3.1-pro-preview; provider = litellm_proxy
+2026-06-11 17:13:13,147 INFO LiteLLM: 
+LiteLLM completion() model= gemini/gemini-3.1-pro-preview; provider = litellm_proxy
+2026-06-11 17:13:13,553 INFO benchmarks.core.runner: [gemini-3.1-pro-preview] 2/50 (0.6 rps)
+2026-06-11 17:13:13,555 INFO LiteLLM: 
+LiteLLM completion() model= gemini/gemini-3.1-pro-preview; provider = litellm_proxy
+2026-06-11 17:13:13,676 INFO LiteLLM: 
+LiteLLM completion() model= gemini/gemini-3.1-pro-preview; provider = litellm_proxy
+2026-06-11 17:13:13,678 INFO benchmarks.core.runner: [gemini-3.1-pro-preview] 4/50 (1.2 rps)
+2026-06-11 17:13:13,681 INFO LiteLLM: 
+LiteLLM completion() model= gemini/gemini-3.1-pro-preview; provider = litellm_proxy
+2026-06-11 17:13:13,770 INFO LiteLLM: 
+LiteLLM completion() model= gemini/gemini-3.1-pro-preview; provider = litellm_proxy
+2026-06-11 17:13:13,885 INFO benchmarks.core.runner: [gemini-3.1-pro-preview] 6/50 (1.6 rps)
+2026-06-11 17:13:13,886 INFO LiteLLM: 
+LiteLLM completion() model= gemini/gemini-3.1-pro-preview; provider = litellm_proxy
+2026-06-11 17:13:13,889 INFO LiteLLM: 
+LiteLLM completion() model= gemini/gemini-3.1-pro-preview; provider = litellm_proxy
+2026-06-11 17:13:14,444 INFO benchmarks.core.runner: [gemini-3.1-pro-preview] 8/50 (1.9 rps)
+2026-06-11 17:13:14,445 INFO LiteLLM: 
+LiteLLM completion() model= gemini/gemini-3.1-pro-preview; provider = litellm_proxy
+2026-06-11 17:13:14,970 INFO LiteLLM: 
+LiteLLM completion() model= gemini/gemini-3.1-pro-preview; provider = litellm_proxy
+2026-06-11 17:13:16,196 INFO benchmarks.core.runner: [gemini-3.1-pro-preview] 10/50 (1.7 rps)
+2026-06-11 17:13:16,197 INFO LiteLLM: 
+LiteLLM completion() model= gemini/gemini-3.1-pro-preview; provider = litellm_proxy
+2026-06-11 17:13:17,131 INFO LiteLLM: 
+LiteLLM completion() model= gemini/gemini-3.1-pro-preview; provider = litellm_proxy
+2026-06-11 17:13:17,446 INFO benchmarks.core.runner: [gemini-3.1-pro-preview] 12/50 (1.7 rps)
+2026-06-11 17:13:17,447 INFO LiteLLM: 
+LiteLLM completion() model= gemini/gemini-3.1-pro-preview; provider = litellm_proxy
+2026-06-11 17:13:17,776 INFO LiteLLM: 
+LiteLLM completion() model= gemini/gemini-3.1-pro-preview; provider = litellm_proxy
+2026-06-11 17:13:17,985 INFO benchmarks.core.runner: [gemini-3.1-pro-preview] 14/50 (1.8 rps)
+2026-06-11 17:13:17,986 INFO LiteLLM: 
+LiteLLM completion() model= gemini/gemini-3.1-pro-preview; provider = litellm_proxy
+2026-06-11 17:13:18,179 INFO LiteLLM: 
+LiteLLM completion() model= gemini/gemini-3.1-pro-preview; provider = litellm_proxy
+2026-06-11 17:13:18,578 INFO benchmarks.core.runner: [gemini-3.1-pro-preview] 16/50 (1.9 rps)
+2026-06-11 17:13:18,579 INFO LiteLLM: 
+LiteLLM completion() model= gemini/gemini-3.1-pro-preview; provider = litellm_proxy
+2026-06-11 17:13:18,978 INFO LiteLLM: 
+LiteLLM completion() model= gemini/gemini-3.1-pro-preview; provider = litellm_proxy
+2026-06-11 17:13:18,980 INFO benchmarks.core.runner: [gemini-3.1-pro-preview] 18/50 (2.1 rps)
+2026-06-11 17:13:18,984 INFO LiteLLM: 
+LiteLLM completion() model= gemini/gemini-3.1-pro-preview; provider = litellm_proxy
+2026-06-11 17:13:19,035 INFO LiteLLM: 
+LiteLLM completion() model= gemini/gemini-3.1-pro-preview; provider = litellm_proxy
+2026-06-11 17:13:19,036 INFO openai._base_client: Retrying request to /chat/completions in 0.391420 seconds
+2026-06-11 17:13:19,882 INFO benchmarks.core.runner: [gemini-3.1-pro-preview] 20/50 (2.1 rps)
+2026-06-11 17:13:19,883 INFO LiteLLM: 
+LiteLLM completion() model= gemini/gemini-3.1-pro-preview; provider = litellm_proxy
+2026-06-11 17:13:20,813 INFO LiteLLM: 
+LiteLLM completion() model= gemini/gemini-3.1-pro-preview; provider = litellm_proxy
+2026-06-11 17:13:21,424 INFO benchmarks.core.runner: [gemini-3.1-pro-preview] 22/50 (2.0 rps)
+2026-06-11 17:13:21,425 INFO LiteLLM: 
+LiteLLM completion() model= gemini/gemini-3.1-pro-preview; provider = litellm_proxy
+2026-06-11 17:13:21,429 INFO benchmarks.core.runner: [gemini-3.1-pro-preview] 24/50 (2.1 rps)
+2026-06-11 17:13:21,429 INFO LiteLLM: 
+LiteLLM completion() model= gemini/gemini-3.1-pro-preview; provider = litellm_proxy
+2026-06-11 17:13:21,430 INFO LiteLLM: 
+LiteLLM completion() model= gemini/gemini-3.1-pro-preview; provider = litellm_proxy
+2026-06-11 17:13:21,567 INFO LiteLLM: 
+LiteLLM completion() model= gemini/gemini-3.1-pro-preview; provider = litellm_proxy
+2026-06-11 17:13:21,809 INFO benchmarks.core.runner: [gemini-3.1-pro-preview] 26/50 (2.2 rps)
+2026-06-11 17:13:21,810 INFO LiteLLM: 
+LiteLLM completion() model= gemini/gemini-3.1-pro-preview; provider = litellm_proxy
+2026-06-11 17:13:21,961 INFO LiteLLM: 
+LiteLLM completion() model= gemini/gemini-3.1-pro-preview; provider = litellm_proxy
+2026-06-11 17:13:22,341 INFO benchmarks.core.runner: [gemini-3.1-pro-preview] 28/50 (2.3 rps)
+2026-06-11 17:13:22,342 INFO LiteLLM: 
+LiteLLM completion() model= gemini/gemini-3.1-pro-preview; provider = litellm_proxy
+2026-06-11 17:13:22,425 INFO LiteLLM: 
+LiteLLM completion() model= gemini/gemini-3.1-pro-preview; provider = litellm_proxy
+2026-06-11 17:13:22,748 INFO benchmarks.core.runner: [gemini-3.1-pro-preview] 30/50 (2.4 rps)
+2026-06-11 17:13:22,749 INFO LiteLLM: 
+LiteLLM completion() model= gemini/gemini-3.1-pro-preview; provider = litellm_proxy
+2026-06-11 17:13:24,499 INFO LiteLLM: 
+LiteLLM completion() model= gemini/gemini-3.1-pro-preview; provider = litellm_proxy
+2026-06-11 17:13:24,501 INFO benchmarks.core.runner: [gemini-3.1-pro-preview] 32/50 (2.2 rps)
+2026-06-11 17:13:24,503 INFO LiteLLM: 
+LiteLLM completion() model= gemini/gemini-3.1-pro-preview; provider = litellm_proxy
+2026-06-11 17:13:24,504 INFO LiteLLM: 
+LiteLLM completion() model= gemini/gemini-3.1-pro-preview; provider = litellm_proxy
+2026-06-11 17:13:24,590 INFO benchmarks.core.runner: [gemini-3.1-pro-preview] 34/50 (2.4 rps)
+2026-06-11 17:13:24,592 INFO LiteLLM: 
+LiteLLM completion() model= gemini/gemini-3.1-pro-preview; provider = litellm_proxy
+2026-06-11 17:13:24,925 INFO LiteLLM: 
+LiteLLM completion() model= gemini/gemini-3.1-pro-preview; provider = litellm_proxy
+2026-06-11 17:13:25,018 INFO benchmarks.core.runner: [gemini-3.1-pro-preview] 36/50 (2.4 rps)
+2026-06-11 17:13:25,019 INFO LiteLLM: 
+LiteLLM completion() model= gemini/gemini-3.1-pro-preview; provider = litellm_proxy
+2026-06-11 17:13:25,130 INFO LiteLLM: 
+LiteLLM completion() model= gemini/gemini-3.1-pro-preview; provider = litellm_proxy
+2026-06-11 17:13:25,349 INFO benchmarks.core.runner: [gemini-3.1-pro-preview] 38/50 (2.5 rps)
+2026-06-11 17:13:25,351 INFO LiteLLM: 
+LiteLLM completion() model= gemini/gemini-3.1-pro-preview; provider = litellm_proxy
+2026-06-11 17:13:25,352 INFO LiteLLM: 
+LiteLLM completion() model= gemini/gemini-3.1-pro-preview; provider = litellm_proxy
+2026-06-11 17:13:27,613 INFO benchmarks.core.runner: [gemini-3.1-pro-preview] 40/50 (2.3 rps)
+2026-06-11 17:13:27,614 INFO LiteLLM: 
+LiteLLM completion() model= gemini/gemini-3.1-pro-preview; provider = litellm_proxy
+2026-06-11 17:13:28,266 INFO benchmarks.core.runner: [gemini-3.1-pro-preview] 42/50 (2.3 rps)
+2026-06-11 17:13:28,378 INFO benchmarks.core.runner: [gemini-3.1-pro-preview] 44/50 (2.4 rps)
+2026-06-11 17:13:28,803 INFO benchmarks.core.runner: [gemini-3.1-pro-preview] 46/50 (2.5 rps)
+2026-06-11 17:13:28,926 INFO benchmarks.core.runner: [gemini-3.1-pro-preview] 48/50 (2.6 rps)
+2026-06-11 17:13:30,334 INFO benchmarks.core.runner: [gemini-3.1-pro-preview] 50/50 (2.5 rps)
+2026-06-11 17:13:30,334 INFO benchmarks.core.runner: [gemini-3.1-pro-preview] done 50/50 in 20.1s
+2026-06-11 17:13:30,334 INFO benchmarks.core.runner: === running pair: gemini-3-flash (litellm_proxy/gemini/gemini-3-flash-preview) ===
+2026-06-11 17:13:30,337 INFO LiteLLM: 
+LiteLLM completion() model= gemini/gemini-3-flash-preview; provider = litellm_proxy
+2026-06-11 17:13:30,337 INFO LiteLLM: 
+LiteLLM completion() model= gemini/gemini-3-flash-preview; provider = litellm_proxy
+2026-06-11 17:13:30,338 INFO LiteLLM: 
+LiteLLM completion() model= gemini/gemini-3-flash-preview; provider = litellm_proxy
+2026-06-11 17:13:30,338 INFO LiteLLM: 
+LiteLLM completion() model= gemini/gemini-3-flash-preview; provider = litellm_proxy
+2026-06-11 17:13:30,339 INFO LiteLLM: 
+LiteLLM completion() model= gemini/gemini-3-flash-preview; provider = litellm_proxy
+2026-06-11 17:13:30,340 INFO LiteLLM: 
+LiteLLM completion() model= gemini/gemini-3-flash-preview; provider = litellm_proxy
+2026-06-11 17:13:30,341 INFO LiteLLM: 
+LiteLLM completion() model= gemini/gemini-3-flash-preview; provider = litellm_proxy
+2026-06-11 17:13:30,341 INFO LiteLLM: 
+LiteLLM completion() model= gemini/gemini-3-flash-preview; provider = litellm_proxy
+2026-06-11 17:13:30,342 INFO LiteLLM: 
+LiteLLM completion() model= gemini/gemini-3-flash-preview; provider = litellm_proxy
+2026-06-11 17:13:30,343 INFO LiteLLM: 
+LiteLLM completion() model= gemini/gemini-3-flash-preview; provider = litellm_proxy
+2026-06-11 17:13:35,407 INFO LiteLLM: 
+LiteLLM completion() model= gemini/gemini-3-flash-preview; provider = litellm_proxy
+2026-06-11 17:13:35,412 INFO benchmarks.core.runner: [gemini-3-flash] 2/50 (0.4 rps)
+2026-06-11 17:13:35,413 INFO LiteLLM: 
+LiteLLM completion() model= gemini/gemini-3-flash-preview; provider = litellm_proxy
+2026-06-11 17:13:35,649 INFO LiteLLM: 
+LiteLLM completion() model= gemini/gemini-3-flash-preview; provider = litellm_proxy
+2026-06-11 17:13:35,730 INFO benchmarks.core.runner: [gemini-3-flash] 4/50 (0.7 rps)
+2026-06-11 17:13:35,732 INFO LiteLLM: 
+LiteLLM completion() model= gemini/gemini-3-flash-preview; provider = litellm_proxy
+2026-06-11 17:13:35,949 INFO LiteLLM: 
+LiteLLM completion() model= gemini/gemini-3-flash-preview; provider = litellm_proxy
+2026-06-11 17:13:35,968 INFO benchmarks.core.runner: [gemini-3-flash] 6/50 (1.1 rps)
+2026-06-11 17:13:35,969 INFO LiteLLM: 
+LiteLLM completion() model= gemini/gemini-3-flash-preview; provider = litellm_proxy
+2026-06-11 17:13:36,441 INFO LiteLLM: 
+LiteLLM completion() model= gemini/gemini-3-flash-preview; provider = litellm_proxy
+2026-06-11 17:13:36,443 INFO benchmarks.core.runner: [gemini-3-flash] 8/50 (1.3 rps)
+2026-06-11 17:13:36,446 INFO LiteLLM: 
+LiteLLM completion() model= gemini/gemini-3-flash-preview; provider = litellm_proxy
+2026-06-11 17:13:36,708 INFO LiteLLM: 
+LiteLLM completion() model= gemini/gemini-3-flash-preview; provider = litellm_proxy
+2026-06-11 17:13:37,580 INFO benchmarks.core.runner: [gemini-3-flash] 10/50 (1.4 rps)
+2026-06-11 17:13:37,581 INFO LiteLLM: 
+LiteLLM completion() model= gemini/gemini-3-flash-preview; provider = litellm_proxy
+2026-06-11 17:13:41,699 INFO LiteLLM: 
+LiteLLM completion() model= gemini/gemini-3-flash-preview; provider = litellm_proxy
+2026-06-11 17:13:41,701 INFO benchmarks.core.runner: [gemini-3-flash] 12/50 (1.1 rps)
+2026-06-11 17:13:41,703 INFO LiteLLM: 
+LiteLLM completion() model= gemini/gemini-3-flash-preview; provider = litellm_proxy
+2026-06-11 17:13:41,703 INFO LiteLLM: 
+LiteLLM completion() model= gemini/gemini-3-flash-preview; provider = litellm_proxy
+2026-06-11 17:13:41,788 INFO benchmarks.core.runner: [gemini-3-flash] 14/50 (1.2 rps)
+2026-06-11 17:13:41,789 INFO LiteLLM: 
+LiteLLM completion() model= gemini/gemini-3-flash-preview; provider = litellm_proxy
+2026-06-11 17:13:42,040 INFO LiteLLM: 
+LiteLLM completion() model= gemini/gemini-3-flash-preview; provider = litellm_proxy
+2026-06-11 17:13:42,120 INFO benchmarks.core.runner: [gemini-3-flash] 16/50 (1.4 rps)
+2026-06-11 17:13:42,121 INFO LiteLLM: 
+LiteLLM completion() model= gemini/gemini-3-flash-preview; provider = litellm_proxy
+2026-06-11 17:13:42,775 INFO LiteLLM: 
+LiteLLM completion() model= gemini/gemini-3-flash-preview; provider = litellm_proxy
+2026-06-11 17:13:43,178 INFO benchmarks.core.runner: [gemini-3-flash] 18/50 (1.4 rps)
+2026-06-11 17:13:43,180 INFO LiteLLM: 
+LiteLLM completion() model= gemini/gemini-3-flash-preview; provider = litellm_proxy
+2026-06-11 17:13:43,661 INFO LiteLLM: 
+LiteLLM completion() model= gemini/gemini-3-flash-preview; provider = litellm_proxy
+2026-06-11 17:13:44,495 INFO benchmarks.core.runner: [gemini-3-flash] 20/50 (1.4 rps)
+2026-06-11 17:13:44,496 INFO LiteLLM: 
+LiteLLM completion() model= gemini/gemini-3-flash-preview; provider = litellm_proxy
+2026-06-11 17:13:46,973 INFO LiteLLM: 
+LiteLLM completion() model= gemini/gemini-3-flash-preview; provider = litellm_proxy
+2026-06-11 17:13:46,993 INFO benchmarks.core.runner: [gemini-3-flash] 22/50 (1.3 rps)
+2026-06-11 17:13:46,995 INFO LiteLLM: 
+LiteLLM completion() model= gemini/gemini-3-flash-preview; provider = litellm_proxy
+2026-06-11 17:13:47,149 INFO LiteLLM: 
+LiteLLM completion() model= gemini/gemini-3-flash-preview; provider = litellm_proxy
+2026-06-11 17:13:47,195 INFO benchmarks.core.runner: [gemini-3-flash] 24/50 (1.4 rps)
+2026-06-11 17:13:47,196 INFO LiteLLM: 
+LiteLLM completion() model= gemini/gemini-3-flash-preview; provider = litellm_proxy
+2026-06-11 17:13:47,847 INFO LiteLLM: 
+LiteLLM completion() model= gemini/gemini-3-flash-preview; provider = litellm_proxy
+2026-06-11 17:13:47,852 INFO benchmarks.core.runner: [gemini-3-flash] 26/50 (1.5 rps)
+2026-06-11 17:13:47,853 INFO LiteLLM: 
+LiteLLM completion() model= gemini/gemini-3-flash-preview; provider = litellm_proxy
+2026-06-11 17:13:48,723 INFO LiteLLM: 
+LiteLLM completion() model= gemini/gemini-3-flash-preview; provider = litellm_proxy
+2026-06-11 17:13:49,378 INFO benchmarks.core.runner: [gemini-3-flash] 28/50 (1.5 rps)
+2026-06-11 17:13:49,379 INFO LiteLLM: 
+LiteLLM completion() model= gemini/gemini-3-flash-preview; provider = litellm_proxy
+2026-06-11 17:13:49,581 INFO LiteLLM: 
+LiteLLM completion() model= gemini/gemini-3-flash-preview; provider = litellm_proxy
+2026-06-11 17:13:50,604 INFO benchmarks.core.runner: [gemini-3-flash] 30/50 (1.5 rps)
+2026-06-11 17:13:50,605 INFO LiteLLM: 
+LiteLLM completion() model= gemini/gemini-3-flash-preview; provider = litellm_proxy
+2026-06-11 17:13:52,056 INFO LiteLLM: 
+LiteLLM completion() model= gemini/gemini-3-flash-preview; provider = litellm_proxy
+2026-06-11 17:13:52,445 INFO benchmarks.core.runner: [gemini-3-flash] 32/50 (1.4 rps)
+2026-06-11 17:13:52,446 INFO LiteLLM: 
+LiteLLM completion() model= gemini/gemini-3-flash-preview; provider = litellm_proxy
+2026-06-11 17:13:52,962 INFO LiteLLM: 
+LiteLLM completion() model= gemini/gemini-3-flash-preview; provider = litellm_proxy
+2026-06-11 17:13:53,383 INFO benchmarks.core.runner: [gemini-3-flash] 34/50 (1.5 rps)
+2026-06-11 17:13:53,385 INFO LiteLLM: 
+LiteLLM completion() model= gemini/gemini-3-flash-preview; provider = litellm_proxy
+2026-06-11 17:13:53,658 INFO LiteLLM: 
+LiteLLM completion() model= gemini/gemini-3-flash-preview; provider = litellm_proxy
+2026-06-11 17:13:53,710 INFO benchmarks.core.runner: [gemini-3-flash] 36/50 (1.5 rps)
+2026-06-11 17:13:53,711 INFO LiteLLM: 
+LiteLLM completion() model= gemini/gemini-3-flash-preview; provider = litellm_proxy
+2026-06-11 17:13:55,104 INFO LiteLLM: 
+LiteLLM completion() model= gemini/gemini-3-flash-preview; provider = litellm_proxy
+2026-06-11 17:13:55,307 INFO benchmarks.core.runner: [gemini-3-flash] 38/50 (1.5 rps)
+2026-06-11 17:13:55,308 INFO LiteLLM: 
+LiteLLM completion() model= gemini/gemini-3-flash-preview; provider = litellm_proxy
+2026-06-11 17:13:55,827 INFO LiteLLM: 
+LiteLLM completion() model= gemini/gemini-3-flash-preview; provider = litellm_proxy
+2026-06-11 17:13:56,724 INFO benchmarks.core.runner: [gemini-3-flash] 40/50 (1.5 rps)
+2026-06-11 17:13:56,726 INFO LiteLLM: 
+LiteLLM completion() model= gemini/gemini-3-flash-preview; provider = litellm_proxy
+2026-06-11 17:13:58,075 INFO benchmarks.core.runner: [gemini-3-flash] 42/50 (1.5 rps)
+2026-06-11 17:13:59,639 INFO benchmarks.core.runner: [gemini-3-flash] 44/50 (1.5 rps)
+2026-06-11 17:13:59,859 INFO benchmarks.core.runner: [gemini-3-flash] 46/50 (1.6 rps)
+2026-06-11 17:14:00,505 INFO benchmarks.core.runner: [gemini-3-flash] 48/50 (1.6 rps)
+2026-06-11 17:14:02,289 INFO benchmarks.core.runner: [gemini-3-flash] 50/50 (1.6 rps)
+2026-06-11 17:14:02,290 INFO benchmarks.core.runner: [gemini-3-flash] done 50/50 in 32.0s
+2026-06-11 17:14:02,290 INFO benchmarks.core.runner: === running pair: qwen3.7-max (litellm_proxy/openrouter-qwen3.7-max) ===
+2026-06-11 17:14:02,293 INFO LiteLLM: 
+LiteLLM completion() model= openrouter-qwen3.7-max; provider = litellm_proxy
+2026-06-11 17:14:02,293 INFO LiteLLM: 
+LiteLLM completion() model= openrouter-qwen3.7-max; provider = litellm_proxy
+2026-06-11 17:14:02,293 INFO LiteLLM: 
+LiteLLM completion() model= openrouter-qwen3.7-max; provider = litellm_proxy
+2026-06-11 17:14:02,297 INFO LiteLLM: 
+LiteLLM completion() model= openrouter-qwen3.7-max; provider = litellm_proxy
+2026-06-11 17:14:02,299 INFO LiteLLM: 
+LiteLLM completion() model= openrouter-qwen3.7-max; provider = litellm_proxy
+2026-06-11 17:14:02,302 INFO LiteLLM: 
+LiteLLM completion() model= openrouter-qwen3.7-max; provider = litellm_proxy
+2026-06-11 17:14:02,302 INFO LiteLLM: 
+LiteLLM completion() model= openrouter-qwen3.7-max; provider = litellm_proxy
+2026-06-11 17:14:02,303 INFO LiteLLM: 
+LiteLLM completion() model= openrouter-qwen3.7-max; provider = litellm_proxy
+2026-06-11 17:14:02,303 INFO LiteLLM: 
+LiteLLM completion() model= openrouter-qwen3.7-max; provider = litellm_proxy
+2026-06-11 17:14:02,303 INFO LiteLLM: 
+LiteLLM completion() model= openrouter-qwen3.7-max; provider = litellm_proxy
+2026-06-11 17:14:08,042 INFO LiteLLM: 
+LiteLLM completion() model= openrouter-qwen3.7-max; provider = litellm_proxy
+2026-06-11 17:14:08,427 INFO benchmarks.core.runner: [qwen3.7-max] 2/50 (0.3 rps)
+2026-06-11 17:14:08,428 INFO LiteLLM: 
+LiteLLM completion() model= openrouter-qwen3.7-max; provider = litellm_proxy
+2026-06-11 17:14:08,458 INFO LiteLLM: 
+LiteLLM completion() model= openrouter-qwen3.7-max; provider = litellm_proxy
+2026-06-11 17:14:09,173 INFO benchmarks.core.runner: [qwen3.7-max] 4/50 (0.6 rps)
+2026-06-11 17:14:09,174 INFO LiteLLM: 
+LiteLLM completion() model= openrouter-qwen3.7-max; provider = litellm_proxy
+2026-06-11 17:14:11,326 INFO LiteLLM: 
+LiteLLM completion() model= openrouter-qwen3.7-max; provider = litellm_proxy
+2026-06-11 17:14:11,996 INFO benchmarks.core.runner: [qwen3.7-max] 6/50 (0.6 rps)
+2026-06-11 17:14:11,997 INFO LiteLLM: 
+LiteLLM completion() model= openrouter-qwen3.7-max; provider = litellm_proxy
+2026-06-11 17:14:13,906 INFO LiteLLM: 
+LiteLLM completion() model= openrouter-qwen3.7-max; provider = litellm_proxy
+2026-06-11 17:14:16,111 INFO benchmarks.core.runner: [qwen3.7-max] 8/50 (0.6 rps)
+2026-06-11 17:14:16,112 INFO LiteLLM: 
+LiteLLM completion() model= openrouter-qwen3.7-max; provider = litellm_proxy
+2026-06-11 17:14:17,039 INFO LiteLLM: 
+LiteLLM completion() model= openrouter-qwen3.7-max; provider = litellm_proxy
+2026-06-11 17:14:17,755 INFO benchmarks.core.runner: [qwen3.7-max] 10/50 (0.6 rps)
+2026-06-11 17:14:17,756 INFO LiteLLM: 
+LiteLLM completion() model= openrouter-qwen3.7-max; provider = litellm_proxy
+2026-06-11 17:14:17,884 INFO LiteLLM: 
+LiteLLM completion() model= openrouter-qwen3.7-max; provider = litellm_proxy
+2026-06-11 17:14:19,819 INFO benchmarks.core.runner: [qwen3.7-max] 12/50 (0.7 rps)
+2026-06-11 17:14:19,820 INFO LiteLLM: 
+LiteLLM completion() model= openrouter-qwen3.7-max; provider = litellm_proxy
+2026-06-11 17:14:20,587 INFO LiteLLM: 
+LiteLLM completion() model= openrouter-qwen3.7-max; provider = litellm_proxy
+2026-06-11 17:14:22,560 INFO benchmarks.core.runner: [qwen3.7-max] 14/50 (0.7 rps)
+2026-06-11 17:14:22,561 INFO LiteLLM: 
+LiteLLM completion() model= openrouter-qwen3.7-max; provider = litellm_proxy
+2026-06-11 17:14:23,153 INFO LiteLLM: 
+LiteLLM completion() model= openrouter-qwen3.7-max; provider = litellm_proxy
+2026-06-11 17:14:23,610 INFO benchmarks.core.runner: [qwen3.7-max] 16/50 (0.8 rps)
+2026-06-11 17:14:23,611 INFO LiteLLM: 
+LiteLLM completion() model= openrouter-qwen3.7-max; provider = litellm_proxy
+2026-06-11 17:14:24,493 INFO LiteLLM: 
+LiteLLM completion() model= openrouter-qwen3.7-max; provider = litellm_proxy
+2026-06-11 17:14:25,344 INFO benchmarks.core.runner: [qwen3.7-max] 18/50 (0.8 rps)
+2026-06-11 17:14:25,345 INFO LiteLLM: 
+LiteLLM completion() model= openrouter-qwen3.7-max; provider = litellm_proxy
+2026-06-11 17:14:25,938 INFO LiteLLM: 
+LiteLLM completion() model= openrouter-qwen3.7-max; provider = litellm_proxy
+2026-06-11 17:14:27,785 INFO benchmarks.core.runner: [qwen3.7-max] 20/50 (0.8 rps)
+2026-06-11 17:14:27,786 INFO LiteLLM: 
+LiteLLM completion() model= openrouter-qwen3.7-max; provider = litellm_proxy
+2026-06-11 17:14:27,789 INFO LiteLLM: 
+LiteLLM completion() model= openrouter-qwen3.7-max; provider = litellm_proxy
+2026-06-11 17:14:29,592 INFO benchmarks.core.runner: [qwen3.7-max] 22/50 (0.8 rps)
+2026-06-11 17:14:29,593 INFO LiteLLM: 
+LiteLLM completion() model= openrouter-qwen3.7-max; provider = litellm_proxy
+2026-06-11 17:14:29,768 INFO LiteLLM: 
+LiteLLM completion() model= openrouter-qwen3.7-max; provider = litellm_proxy
+2026-06-11 17:14:31,159 INFO benchmarks.core.runner: [qwen3.7-max] 24/50 (0.8 rps)
+2026-06-11 17:14:31,160 INFO LiteLLM: 
+LiteLLM completion() model= openrouter-qwen3.7-max; provider = litellm_proxy
+2026-06-11 17:14:31,343 INFO LiteLLM: 
+LiteLLM completion() model= openrouter-qwen3.7-max; provider = litellm_proxy
+2026-06-11 17:14:31,363 INFO benchmarks.core.runner: [qwen3.7-max] 26/50 (0.9 rps)
+2026-06-11 17:14:31,364 INFO LiteLLM: 
+LiteLLM completion() model= openrouter-qwen3.7-max; provider = litellm_proxy
+2026-06-11 17:14:32,614 INFO LiteLLM: 
+LiteLLM completion() model= openrouter-qwen3.7-max; provider = litellm_proxy
+2026-06-11 17:14:34,244 INFO benchmarks.core.runner: [qwen3.7-max] 28/50 (0.9 rps)
+2026-06-11 17:14:34,245 INFO LiteLLM: 
+LiteLLM completion() model= openrouter-qwen3.7-max; provider = litellm_proxy
+2026-06-11 17:14:34,843 INFO LiteLLM: 
+LiteLLM completion() model= openrouter-qwen3.7-max; provider = litellm_proxy
+2026-06-11 17:14:34,904 INFO benchmarks.core.runner: [qwen3.7-max] 30/50 (0.9 rps)
+2026-06-11 17:14:34,905 INFO LiteLLM: 
+LiteLLM completion() model= openrouter-qwen3.7-max; provider = litellm_proxy
+2026-06-11 17:14:36,074 INFO LiteLLM: 
+LiteLLM completion() model= openrouter-qwen3.7-max; provider = litellm_proxy
+2026-06-11 17:14:36,271 INFO benchmarks.core.runner: [qwen3.7-max] 32/50 (0.9 rps)
+2026-06-11 17:14:36,272 INFO LiteLLM: 
+LiteLLM completion() model= openrouter-qwen3.7-max; provider = litellm_proxy
+2026-06-11 17:14:36,992 INFO LiteLLM: 
+LiteLLM completion() model= openrouter-qwen3.7-max; provider = litellm_proxy
+2026-06-11 17:14:38,076 INFO benchmarks.core.runner: [qwen3.7-max] 34/50 (1.0 rps)
+2026-06-11 17:14:38,077 INFO LiteLLM: 
+LiteLLM completion() model= openrouter-qwen3.7-max; provider = litellm_proxy
+2026-06-11 17:14:39,923 INFO LiteLLM: 
+LiteLLM completion() model= openrouter-qwen3.7-max; provider = litellm_proxy
+2026-06-11 17:14:41,078 INFO benchmarks.core.runner: [qwen3.7-max] 36/50 (0.9 rps)
+2026-06-11 17:14:41,079 INFO LiteLLM: 
+LiteLLM completion() model= openrouter-qwen3.7-max; provider = litellm_proxy
+2026-06-11 17:14:41,603 INFO LiteLLM: 
+LiteLLM completion() model= openrouter-qwen3.7-max; provider = litellm_proxy
+2026-06-11 17:14:43,922 INFO benchmarks.core.runner: [qwen3.7-max] 38/50 (0.9 rps)
+2026-06-11 17:14:43,923 INFO LiteLLM: 
+LiteLLM completion() model= openrouter-qwen3.7-max; provider = litellm_proxy
+2026-06-11 17:14:44,058 INFO LiteLLM: 
+LiteLLM completion() model= openrouter-qwen3.7-max; provider = litellm_proxy
+2026-06-11 17:14:44,499 INFO benchmarks.core.runner: [qwen3.7-max] 40/50 (0.9 rps)
+2026-06-11 17:14:44,500 INFO LiteLLM: 
+LiteLLM completion() model= openrouter-qwen3.7-max; provider = litellm_proxy
+2026-06-11 17:14:46,542 INFO benchmarks.core.runner: [qwen3.7-max] 42/50 (0.9 rps)
+2026-06-11 17:14:47,612 INFO benchmarks.core.runner: [qwen3.7-max] 44/50 (1.0 rps)
+2026-06-11 17:14:48,374 INFO benchmarks.core.runner: [qwen3.7-max] 46/50 (1.0 rps)
+2026-06-11 17:14:51,353 INFO benchmarks.core.runner: [qwen3.7-max] 48/50 (1.0 rps)
+2026-06-11 17:14:52,882 INFO benchmarks.core.runner: [qwen3.7-max] 50/50 (1.0 rps)
+2026-06-11 17:14:52,882 INFO benchmarks.core.runner: [qwen3.7-max] done 50/50 in 50.6s
+2026-06-11 17:14:52,883 INFO benchmarks.core.runner: === running pair: gpt-5.5 (litellm_proxy/gpt-5.5) ===
+2026-06-11 17:14:52,885 INFO LiteLLM: 
+LiteLLM completion() model= gpt-5.5; provider = litellm_proxy
+2026-06-11 17:14:52,885 INFO LiteLLM: 
+LiteLLM completion() model= gpt-5.5; provider = litellm_proxy
+2026-06-11 17:14:52,886 INFO LiteLLM: 
+LiteLLM completion() model= gpt-5.5; provider = litellm_proxy
+2026-06-11 17:14:52,888 INFO LiteLLM: 
+LiteLLM completion() model= gpt-5.5; provider = litellm_proxy
+2026-06-11 17:14:52,888 INFO LiteLLM: 
+LiteLLM completion() model= gpt-5.5; provider = litellm_proxy
+2026-06-11 17:14:52,888 INFO LiteLLM: 
+LiteLLM completion() model= gpt-5.5; provider = litellm_proxy
+2026-06-11 17:14:52,889 INFO LiteLLM: 
+LiteLLM completion() model= gpt-5.5; provider = litellm_proxy
+2026-06-11 17:14:52,890 INFO LiteLLM: 
+LiteLLM completion() model= gpt-5.5; provider = litellm_proxy
+2026-06-11 17:14:52,890 INFO LiteLLM: 
+LiteLLM completion() model= gpt-5.5; provider = litellm_proxy
+2026-06-11 17:14:52,891 INFO LiteLLM: 
+LiteLLM completion() model= gpt-5.5; provider = litellm_proxy
+2026-06-11 17:14:54,507 INFO LiteLLM: 
+LiteLLM completion() model= gpt-5.5; provider = litellm_proxy
+2026-06-11 17:14:54,520 INFO benchmarks.core.runner: [gpt-5.5] 2/50 (1.2 rps)
+2026-06-11 17:14:54,521 INFO LiteLLM: 
+LiteLLM completion() model= gpt-5.5; provider = litellm_proxy
+2026-06-11 17:14:54,585 INFO LiteLLM: 
+LiteLLM completion() model= gpt-5.5; provider = litellm_proxy
+2026-06-11 17:14:54,653 INFO benchmarks.core.runner: [gpt-5.5] 4/50 (2.3 rps)
+2026-06-11 17:14:54,654 INFO LiteLLM: 
+LiteLLM completion() model= gpt-5.5; provider = litellm_proxy
+2026-06-11 17:14:54,875 INFO LiteLLM: 
+LiteLLM completion() model= gpt-5.5; provider = litellm_proxy
+2026-06-11 17:14:55,385 INFO benchmarks.core.runner: [gpt-5.5] 6/50 (2.4 rps)
+2026-06-11 17:14:55,386 INFO LiteLLM: 
+LiteLLM completion() model= gpt-5.5; provider = litellm_proxy
+2026-06-11 17:14:55,459 INFO LiteLLM: 
+LiteLLM completion() model= gpt-5.5; provider = litellm_proxy
+2026-06-11 17:14:56,722 INFO benchmarks.core.runner: [gpt-5.5] 8/50 (2.1 rps)
+2026-06-11 17:14:56,723 INFO LiteLLM: 
+LiteLLM completion() model= gpt-5.5; provider = litellm_proxy
+2026-06-11 17:14:56,727 INFO benchmarks.core.runner: [gpt-5.5] 10/50 (2.6 rps)
+2026-06-11 17:14:56,728 INFO LiteLLM: 
+LiteLLM completion() model= gpt-5.5; provider = litellm_proxy
+2026-06-11 17:14:56,729 INFO LiteLLM: 
+LiteLLM completion() model= gpt-5.5; provider = litellm_proxy
+2026-06-11 17:14:57,166 INFO LiteLLM: 
+LiteLLM completion() model= gpt-5.5; provider = litellm_proxy
+2026-06-11 17:14:57,216 INFO benchmarks.core.runner: [gpt-5.5] 12/50 (2.8 rps)
+2026-06-11 17:14:57,217 INFO LiteLLM: 
+LiteLLM completion() model= gpt-5.5; provider = litellm_proxy
+2026-06-11 17:14:57,877 INFO LiteLLM: 
+LiteLLM completion() model= gpt-5.5; provider = litellm_proxy
+2026-06-11 17:14:58,290 INFO benchmarks.core.runner: [gpt-5.5] 14/50 (2.6 rps)
+2026-06-11 17:14:58,291 INFO LiteLLM: 
+LiteLLM completion() model= gpt-5.5; provider = litellm_proxy
+2026-06-11 17:14:58,611 INFO LiteLLM: 
+LiteLLM completion() model= gpt-5.5; provider = litellm_proxy
+2026-06-11 17:14:58,655 INFO benchmarks.core.runner: [gpt-5.5] 16/50 (2.8 rps)
+2026-06-11 17:14:58,656 INFO LiteLLM: 
+LiteLLM completion() model= gpt-5.5; provider = litellm_proxy
+2026-06-11 17:14:59,136 INFO LiteLLM: 
+LiteLLM completion() model= gpt-5.5; provider = litellm_proxy
+2026-06-11 17:14:59,146 INFO benchmarks.core.runner: [gpt-5.5] 18/50 (2.9 rps)
+2026-06-11 17:14:59,147 INFO LiteLLM: 
+LiteLLM completion() model= gpt-5.5; provider = litellm_proxy
+2026-06-11 17:14:59,251 INFO LiteLLM: 
+LiteLLM completion() model= gpt-5.5; provider = litellm_proxy
+2026-06-11 17:14:59,897 INFO benchmarks.core.runner: [gpt-5.5] 20/50 (2.9 rps)
+2026-06-11 17:14:59,898 INFO LiteLLM: 
+LiteLLM completion() model= gpt-5.5; provider = litellm_proxy
+2026-06-11 17:15:00,654 INFO LiteLLM: 
+LiteLLM completion() model= gpt-5.5; provider = litellm_proxy
+2026-06-11 17:15:00,657 INFO benchmarks.core.runner: [gpt-5.5] 22/50 (2.8 rps)
+2026-06-11 17:15:00,659 INFO LiteLLM: 
+LiteLLM completion() model= gpt-5.5; provider = litellm_proxy
+2026-06-11 17:15:00,659 INFO LiteLLM: 
+LiteLLM completion() model= gpt-5.5; provider = litellm_proxy
+2026-06-11 17:15:00,699 INFO benchmarks.core.runner: [gpt-5.5] 24/50 (3.1 rps)
+2026-06-11 17:15:00,700 INFO LiteLLM: 
+LiteLLM completion() model= gpt-5.5; provider = litellm_proxy
+2026-06-11 17:15:00,985 INFO LiteLLM: 
+LiteLLM completion() model= gpt-5.5; provider = litellm_proxy
+2026-06-11 17:15:01,168 INFO benchmarks.core.runner: [gpt-5.5] 26/50 (3.1 rps)
+2026-06-11 17:15:01,170 INFO LiteLLM: 
+LiteLLM completion() model= gpt-5.5; provider = litellm_proxy
+2026-06-11 17:15:01,183 INFO LiteLLM: 
+LiteLLM completion() model= gpt-5.5; provider = litellm_proxy
+2026-06-11 17:15:01,272 INFO benchmarks.core.runner: [gpt-5.5] 28/50 (3.3 rps)
+2026-06-11 17:15:01,273 INFO LiteLLM: 
+LiteLLM completion() model= gpt-5.5; provider = litellm_proxy
+2026-06-11 17:15:02,290 INFO LiteLLM: 
+LiteLLM completion() model= gpt-5.5; provider = litellm_proxy
+2026-06-11 17:15:02,297 INFO benchmarks.core.runner: [gpt-5.5] 30/50 (3.2 rps)
+2026-06-11 17:15:02,298 INFO LiteLLM: 
+LiteLLM completion() model= gpt-5.5; provider = litellm_proxy
+2026-06-11 17:15:02,382 INFO LiteLLM: 
+LiteLLM completion() model= gpt-5.5; provider = litellm_proxy
+2026-06-11 17:15:02,702 INFO benchmarks.core.runner: [gpt-5.5] 32/50 (3.3 rps)
+2026-06-11 17:15:02,703 INFO LiteLLM: 
+LiteLLM completion() model= gpt-5.5; provider = litellm_proxy
+2026-06-11 17:15:02,809 INFO LiteLLM: 
+LiteLLM completion() model= gpt-5.5; provider = litellm_proxy
+2026-06-11 17:15:03,073 INFO benchmarks.core.runner: [gpt-5.5] 34/50 (3.3 rps)
+2026-06-11 17:15:03,074 INFO LiteLLM: 
+LiteLLM completion() model= gpt-5.5; provider = litellm_proxy
+2026-06-11 17:15:03,643 INFO LiteLLM: 
+LiteLLM completion() model= gpt-5.5; provider = litellm_proxy
+2026-06-11 17:15:03,722 INFO benchmarks.core.runner: [gpt-5.5] 36/50 (3.3 rps)
+2026-06-11 17:15:03,723 INFO LiteLLM: 
+LiteLLM completion() model= gpt-5.5; provider = litellm_proxy
+2026-06-11 17:15:03,726 INFO LiteLLM: 
+LiteLLM completion() model= gpt-5.5; provider = litellm_proxy
+2026-06-11 17:15:03,869 INFO benchmarks.core.runner: [gpt-5.5] 38/50 (3.5 rps)
+2026-06-11 17:15:03,870 INFO LiteLLM: 
+LiteLLM completion() model= gpt-5.5; provider = litellm_proxy
+2026-06-11 17:15:03,876 INFO LiteLLM: 
+LiteLLM completion() model= gpt-5.5; provider = litellm_proxy
+2026-06-11 17:15:03,933 INFO benchmarks.core.runner: [gpt-5.5] 40/50 (3.6 rps)
+2026-06-11 17:15:03,934 INFO LiteLLM: 
+LiteLLM completion() model= gpt-5.5; provider = litellm_proxy
+2026-06-11 17:15:04,205 INFO benchmarks.core.runner: [gpt-5.5] 42/50 (3.7 rps)
+2026-06-11 17:15:05,148 INFO benchmarks.core.runner: [gpt-5.5] 44/50 (3.6 rps)
+2026-06-11 17:15:06,178 INFO benchmarks.core.runner: [gpt-5.5] 46/50 (3.5 rps)
+2026-06-11 17:15:06,454 INFO benchmarks.core.runner: [gpt-5.5] 48/50 (3.5 rps)
+2026-06-11 17:15:07,279 INFO benchmarks.core.runner: [gpt-5.5] 50/50 (3.5 rps)
+2026-06-11 17:15:07,280 INFO benchmarks.core.runner: [gpt-5.5] done 50/50 in 14.4s
+2026-06-11 17:15:07,280 INFO benchmarks.core.runner: === running pair: gemma-4-31b (litellm_proxy/openrouter-gemma-4-31b-it) ===
+2026-06-11 17:15:07,282 INFO LiteLLM: 
+LiteLLM completion() model= openrouter-gemma-4-31b-it; provider = litellm_proxy
+2026-06-11 17:15:07,283 INFO LiteLLM: 
+LiteLLM completion() model= openrouter-gemma-4-31b-it; provider = litellm_proxy
+2026-06-11 17:15:07,285 INFO LiteLLM: 
+LiteLLM completion() model= openrouter-gemma-4-31b-it; provider = litellm_proxy
+2026-06-11 17:15:07,286 INFO LiteLLM: 
+LiteLLM completion() model= openrouter-gemma-4-31b-it; provider = litellm_proxy
+2026-06-11 17:15:07,286 INFO LiteLLM: 
+LiteLLM completion() model= openrouter-gemma-4-31b-it; provider = litellm_proxy
+2026-06-11 17:15:07,287 INFO LiteLLM: 
+LiteLLM completion() model= openrouter-gemma-4-31b-it; provider = litellm_proxy
+2026-06-11 17:15:07,288 INFO LiteLLM: 
+LiteLLM completion() model= openrouter-gemma-4-31b-it; provider = litellm_proxy
+2026-06-11 17:15:07,288 INFO LiteLLM: 
+LiteLLM completion() model= openrouter-gemma-4-31b-it; provider = litellm_proxy
+2026-06-11 17:15:07,289 INFO LiteLLM: 
+LiteLLM completion() model= openrouter-gemma-4-31b-it; provider = litellm_proxy
+2026-06-11 17:15:07,289 INFO LiteLLM: 
+LiteLLM completion() model= openrouter-gemma-4-31b-it; provider = litellm_proxy
+2026-06-11 17:15:08,158 INFO LiteLLM: 
+LiteLLM completion() model= openrouter-gemma-4-31b-it; provider = litellm_proxy
+2026-06-11 17:15:08,245 INFO benchmarks.core.runner: [gemma-4-31b] 2/50 (2.1 rps)
+2026-06-11 17:15:08,246 INFO LiteLLM: 
+LiteLLM completion() model= openrouter-gemma-4-31b-it; provider = litellm_proxy
+2026-06-11 17:15:08,376 INFO LiteLLM: 
+LiteLLM completion() model= openrouter-gemma-4-31b-it; provider = litellm_proxy
+2026-06-11 17:15:08,386 INFO benchmarks.core.runner: [gemma-4-31b] 4/50 (3.6 rps)
+2026-06-11 17:15:08,387 INFO LiteLLM: 
+LiteLLM completion() model= openrouter-gemma-4-31b-it; provider = litellm_proxy
+2026-06-11 17:15:08,944 INFO LiteLLM: 
+LiteLLM completion() model= openrouter-gemma-4-31b-it; provider = litellm_proxy
+2026-06-11 17:15:08,946 INFO benchmarks.core.runner: [gemma-4-31b] 6/50 (3.6 rps)
+2026-06-11 17:15:08,949 INFO benchmarks.core.runner: [gemma-4-31b] 8/50 (4.8 rps)
+2026-06-11 17:15:08,949 INFO LiteLLM: 
+LiteLLM completion() model= openrouter-gemma-4-31b-it; provider = litellm_proxy
+2026-06-11 17:15:08,950 INFO LiteLLM: 
+LiteLLM completion() model= openrouter-gemma-4-31b-it; provider = litellm_proxy
+2026-06-11 17:15:08,951 INFO LiteLLM: 
+LiteLLM completion() model= openrouter-gemma-4-31b-it; provider = litellm_proxy
+2026-06-11 17:15:09,479 INFO LiteLLM: 
+LiteLLM completion() model= openrouter-gemma-4-31b-it; provider = litellm_proxy
+2026-06-11 17:15:09,482 INFO benchmarks.core.runner: [gemma-4-31b] 10/50 (4.5 rps)
+2026-06-11 17:15:09,485 INFO benchmarks.core.runner: [gemma-4-31b] 12/50 (5.4 rps)
+2026-06-11 17:15:09,485 INFO LiteLLM: 
+LiteLLM completion() model= openrouter-gemma-4-31b-it; provider = litellm_proxy
+2026-06-11 17:15:09,486 INFO LiteLLM: 
+LiteLLM completion() model= openrouter-gemma-4-31b-it; provider = litellm_proxy
+2026-06-11 17:15:09,486 INFO LiteLLM: 
+LiteLLM completion() model= openrouter-gemma-4-31b-it; provider = litellm_proxy
+2026-06-11 17:15:10,172 INFO LiteLLM: 
+LiteLLM completion() model= openrouter-gemma-4-31b-it; provider = litellm_proxy
+2026-06-11 17:15:10,371 INFO benchmarks.core.runner: [gemma-4-31b] 14/50 (4.5 rps)
+2026-06-11 17:15:10,372 INFO LiteLLM: 
+LiteLLM completion() model= openrouter-gemma-4-31b-it; provider = litellm_proxy
+2026-06-11 17:15:10,785 INFO LiteLLM: 
+LiteLLM completion() model= openrouter-gemma-4-31b-it; provider = litellm_proxy
+2026-06-11 17:15:10,860 INFO benchmarks.core.runner: [gemma-4-31b] 16/50 (4.5 rps)
+2026-06-11 17:15:10,861 INFO LiteLLM: 
+LiteLLM completion() model= openrouter-gemma-4-31b-it; provider = litellm_proxy
+2026-06-11 17:15:10,910 INFO LiteLLM: 
+LiteLLM completion() model= openrouter-gemma-4-31b-it; provider = litellm_proxy
+2026-06-11 17:15:11,271 INFO benchmarks.core.runner: [gemma-4-31b] 18/50 (4.5 rps)
+2026-06-11 17:15:11,272 INFO LiteLLM: 
+LiteLLM completion() model= openrouter-gemma-4-31b-it; provider = litellm_proxy
+2026-06-11 17:15:11,366 INFO LiteLLM: 
+LiteLLM completion() model= openrouter-gemma-4-31b-it; provider = litellm_proxy
+2026-06-11 17:15:11,599 INFO benchmarks.core.runner: [gemma-4-31b] 20/50 (4.6 rps)
+2026-06-11 17:15:11,600 INFO LiteLLM: 
+LiteLLM completion() model= openrouter-gemma-4-31b-it; provider = litellm_proxy
+2026-06-11 17:15:11,603 INFO LiteLLM: 
+LiteLLM completion() model= openrouter-gemma-4-31b-it; provider = litellm_proxy
+2026-06-11 17:15:12,096 INFO benchmarks.core.runner: [gemma-4-31b] 22/50 (4.6 rps)
+2026-06-11 17:15:12,098 INFO LiteLLM: 
+LiteLLM completion() model= openrouter-gemma-4-31b-it; provider = litellm_proxy
+2026-06-11 17:15:12,122 INFO LiteLLM: 
+LiteLLM completion() model= openrouter-gemma-4-31b-it; provider = litellm_proxy
+2026-06-11 17:15:12,630 INFO benchmarks.core.runner: [gemma-4-31b] 24/50 (4.5 rps)
+2026-06-11 17:15:12,631 INFO LiteLLM: 
+LiteLLM completion() model= openrouter-gemma-4-31b-it; provider = litellm_proxy
+2026-06-11 17:15:12,635 INFO benchmarks.core.runner: [gemma-4-31b] 26/50 (4.9 rps)
+2026-06-11 17:15:12,636 INFO LiteLLM: 
+LiteLLM completion() model= openrouter-gemma-4-31b-it; provider = litellm_proxy
+2026-06-11 17:15:12,639 INFO benchmarks.core.runner: [gemma-4-31b] 28/50 (5.2 rps)
+2026-06-11 17:15:12,639 INFO LiteLLM: 
+LiteLLM completion() model= openrouter-gemma-4-31b-it; provider = litellm_proxy
+2026-06-11 17:15:12,640 INFO LiteLLM: 
+LiteLLM completion() model= openrouter-gemma-4-31b-it; provider = litellm_proxy
+2026-06-11 17:15:12,640 INFO LiteLLM: 
+LiteLLM completion() model= openrouter-gemma-4-31b-it; provider = litellm_proxy
+2026-06-11 17:15:13,246 INFO LiteLLM: 
+LiteLLM completion() model= openrouter-gemma-4-31b-it; provider = litellm_proxy
+2026-06-11 17:15:13,474 INFO benchmarks.core.runner: [gemma-4-31b] 30/50 (4.8 rps)
+2026-06-11 17:15:13,475 INFO LiteLLM: 
+LiteLLM completion() model= openrouter-gemma-4-31b-it; provider = litellm_proxy
+2026-06-11 17:15:14,172 INFO LiteLLM: 
+LiteLLM completion() model= openrouter-gemma-4-31b-it; provider = litellm_proxy
+2026-06-11 17:15:14,175 INFO benchmarks.core.runner: [gemma-4-31b] 32/50 (4.6 rps)
+2026-06-11 17:15:14,177 INFO LiteLLM: 
+LiteLLM completion() model= openrouter-gemma-4-31b-it; provider = litellm_proxy
+2026-06-11 17:15:14,177 INFO LiteLLM: 
+LiteLLM completion() model= openrouter-gemma-4-31b-it; provider = litellm_proxy
+2026-06-11 17:15:14,185 INFO benchmarks.core.runner: [gemma-4-31b] 34/50 (4.9 rps)
+2026-06-11 17:15:14,186 INFO LiteLLM: 
+LiteLLM completion() model= openrouter-gemma-4-31b-it; provider = litellm_proxy
+2026-06-11 17:15:14,578 INFO LiteLLM: 
+LiteLLM completion() model= openrouter-gemma-4-31b-it; provider = litellm_proxy
+2026-06-11 17:15:14,605 INFO benchmarks.core.runner: [gemma-4-31b] 36/50 (4.9 rps)
+2026-06-11 17:15:14,607 INFO LiteLLM: 
+LiteLLM completion() model= openrouter-gemma-4-31b-it; provider = litellm_proxy
+2026-06-11 17:15:14,612 INFO LiteLLM: 
+LiteLLM completion() model= openrouter-gemma-4-31b-it; provider = litellm_proxy
+2026-06-11 17:15:14,613 INFO benchmarks.core.runner: [gemma-4-31b] 38/50 (5.2 rps)
+2026-06-11 17:15:14,615 INFO LiteLLM: 
+LiteLLM completion() model= openrouter-gemma-4-31b-it; provider = litellm_proxy
+2026-06-11 17:15:14,951 INFO LiteLLM: 
+LiteLLM completion() model= openrouter-gemma-4-31b-it; provider = litellm_proxy
+2026-06-11 17:15:15,278 INFO benchmarks.core.runner: [gemma-4-31b] 40/50 (5.0 rps)
+2026-06-11 17:15:15,279 INFO LiteLLM: 
+LiteLLM completion() model= openrouter-gemma-4-31b-it; provider = litellm_proxy
+2026-06-11 17:15:15,634 INFO benchmarks.core.runner: [gemma-4-31b] 42/50 (5.0 rps)
+2026-06-11 17:15:15,960 INFO benchmarks.core.runner: [gemma-4-31b] 44/50 (5.1 rps)
+2026-06-11 17:15:16,102 INFO benchmarks.core.runner: [gemma-4-31b] 46/50 (5.2 rps)
+2026-06-11 17:15:16,933 INFO benchmarks.core.runner: [gemma-4-31b] 48/50 (5.0 rps)
+2026-06-11 17:15:18,780 INFO benchmarks.core.runner: [gemma-4-31b] 50/50 (4.3 rps)
+2026-06-11 17:15:18,780 INFO benchmarks.core.runner: [gemma-4-31b] done 50/50 in 11.5s
+2026-06-11 17:15:18,782 INFO benchmarks: Run complete. Outputs in: /Users/kavana/Documents/watchdog/benchmarks/runs/2026-06-11T17-13-10-with_one_more_model

@@ -1,0 +1,6 @@
+prompt,model,pair,is_base,total,refused,scoreable,correct,accuracy,coverage,latency_p50_ms,latency_p95_ms,latency_mean_ms,cost_total_usd,cost_mean_usd,cost_per_correct_usd,prompt_tokens_total,completion_tokens_total,error_count,parse_error_count,precision,recall,f1
+,gemini-3.1-pro-preview,gemini-3.1-pro-preview,1,50,0,50,42,0.8400,1.0000,3451.8,5148.8,3705.6,0.150788,0.00301576,0.00359019,24136,8543,0,0,0.7143,1.0000,0.8333
+,gemini-3-flash,gemini-3-flash,,50,0,50,49,0.9800,1.0000,5715.1,7424.8,5906.0,0.059918,0.00119837,0.00122282,24136,21071,0,0,0.9524,1.0000,0.9756
+,qwen3.7-max,qwen3.7-max,,50,0,50,42,0.8400,1.0000,8120.9,15463.5,9313.0,0.112235,0.00224470,0.00267226,25987,21267,0,0,0.7143,1.0000,0.8333
+,gpt-5.5,gpt-5.5,,50,0,50,47,0.9400,1.0000,2366.2,5999.8,2551.4,0.242120,0.00484240,0.00515149,26194,3705,0,0,0.8696,1.0000,0.9302
+,gemma-4-31b,gemma-4-31b,,50,0,50,43,0.8600,1.0000,1387.7,3826.5,1842.1,0.003164,0.00006327,0.00007358,25525,350,0,0,0.7407,1.0000,0.8511

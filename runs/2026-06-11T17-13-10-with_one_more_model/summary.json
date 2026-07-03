@@ -1,0 +1,378 @@
+{
+  "run_name": "with_one_more_model",
+  "started_at": 1781178190.234903,
+  "finished_at": 1781178318.78057,
+  "duration_seconds": 128.55,
+  "dataset": {
+    "path": "/Users/kavana/Documents/watchdog/benchmarks/data/hinglish_3item_gold_50.csv",
+    "total_examples": 50,
+    "input_columns": [
+      "bot_reply"
+    ],
+    "gold_column": "english_leak_gold"
+  },
+  "base_model": "gemini-3.1-pro-preview",
+  "models": {
+    "gemini-3.1-pro-preview": {
+      "model_name": "gemini-3.1-pro-preview",
+      "total": 50,
+      "refused_count": 0,
+      "coverage": 1.0,
+      "accuracy": 0.84,
+      "scoreable": 50,
+      "correct": 42,
+      "error_count": 0,
+      "parse_error_count": 0,
+      "latency_p50_ms": 3451.756791007938,
+      "latency_p95_ms": 5148.765332996845,
+      "latency_mean_ms": 3705.6241875205887,
+      "cost_total_usd": 0.150788,
+      "cost_mean_usd": 0.00301576,
+      "cost_per_correct_usd": 0.0035901904761904764,
+      "prompt_tokens_total": 24136,
+      "completion_tokens_total": 8543,
+      "confusion": {
+        "classes": [
+          "FAIL",
+          "PASS"
+        ],
+        "matrix": {
+          "FAIL": {
+            "FAIL": 22,
+            "PASS": 8
+          },
+          "PASS": {
+            "FAIL": 0,
+            "PASS": 20
+          }
+        },
+        "binary": {
+          "positive_class": "PASS",
+          "negative_class": "FAIL",
+          "tp": 20,
+          "fp": 8,
+          "fn": 0,
+          "tn": 22,
+          "precision": 0.7142857142857143,
+          "recall": 1.0,
+          "f1": 0.8333333333333333
+        }
+      }
+    },
+    "gemini-3-flash": {
+      "model_name": "gemini-3-flash",
+      "total": 50,
+      "refused_count": 0,
+      "coverage": 1.0,
+      "accuracy": 0.98,
+      "scoreable": 50,
+      "correct": 49,
+      "error_count": 0,
+      "parse_error_count": 0,
+      "latency_p50_ms": 5715.1046250073705,
+      "latency_p95_ms": 7424.786375020631,
+      "latency_mean_ms": 5905.993280058028,
+      "cost_total_usd": 0.0599183,
+      "cost_mean_usd": 0.001198366,
+      "cost_per_correct_usd": 0.001222822448979592,
+      "prompt_tokens_total": 24136,
+      "completion_tokens_total": 21071,
+      "confusion": {
+        "classes": [
+          "FAIL",
+          "PASS"
+        ],
+        "matrix": {
+          "FAIL": {
+            "FAIL": 29,
+            "PASS": 1
+          },
+          "PASS": {
+            "FAIL": 0,
+            "PASS": 20
+          }
+        },
+        "binary": {
+          "positive_class": "PASS",
+          "negative_class": "FAIL",
+          "tp": 20,
+          "fp": 1,
+          "fn": 0,
+          "tn": 29,
+          "precision": 0.9523809523809523,
+          "recall": 1.0,
+          "f1": 0.975609756097561
+        }
+      }
+    },
+    "qwen3.7-max": {
+      "model_name": "qwen3.7-max",
+      "total": 50,
+      "refused_count": 0,
+      "coverage": 1.0,
+      "accuracy": 0.84,
+      "scoreable": 50,
+      "correct": 42,
+      "error_count": 0,
+      "parse_error_count": 0,
+      "latency_p50_ms": 8120.924874994671,
+      "latency_p95_ms": 15463.486207998358,
+      "latency_mean_ms": 9312.98264747893,
+      "cost_total_usd": 0.112235,
+      "cost_mean_usd": 0.0022447,
+      "cost_per_correct_usd": 0.0026722619047619047,
+      "prompt_tokens_total": 25987,
+      "completion_tokens_total": 21267,
+      "confusion": {
+        "classes": [
+          "FAIL",
+          "PASS"
+        ],
+        "matrix": {
+          "FAIL": {
+            "FAIL": 22,
+            "PASS": 8
+          },
+          "PASS": {
+            "FAIL": 0,
+            "PASS": 20
+          }
+        },
+        "binary": {
+          "positive_class": "PASS",
+          "negative_class": "FAIL",
+          "tp": 20,
+          "fp": 8,
+          "fn": 0,
+          "tn": 22,
+          "precision": 0.7142857142857143,
+          "recall": 1.0,
+          "f1": 0.8333333333333333
+        }
+      }
+    },
+    "gpt-5.5": {
+      "model_name": "gpt-5.5",
+      "total": 50,
+      "refused_count": 0,
+      "coverage": 1.0,
+      "accuracy": 0.94,
+      "scoreable": 50,
+      "correct": 47,
+      "error_count": 0,
+      "parse_error_count": 0,
+      "latency_p50_ms": 2366.157167009078,
+      "latency_p95_ms": 5999.7813749942,
+      "latency_mean_ms": 2551.441780018504,
+      "cost_total_usd": 0.24212,
+      "cost_mean_usd": 0.0048424,
+      "cost_per_correct_usd": 0.005151489361702128,
+      "prompt_tokens_total": 26194,
+      "completion_tokens_total": 3705,
+      "confusion": {
+        "classes": [
+          "FAIL",
+          "PASS"
+        ],
+        "matrix": {
+          "FAIL": {
+            "FAIL": 27,
+            "PASS": 3
+          },
+          "PASS": {
+            "FAIL": 0,
+            "PASS": 20
+          }
+        },
+        "binary": {
+          "positive_class": "PASS",
+          "negative_class": "FAIL",
+          "tp": 20,
+          "fp": 3,
+          "fn": 0,
+          "tn": 27,
+          "precision": 0.8695652173913043,
+          "recall": 1.0,
+          "f1": 0.9302325581395349
+        }
+      }
+    },
+    "gemma-4-31b": {
+      "model_name": "gemma-4-31b",
+      "total": 50,
+      "refused_count": 0,
+      "coverage": 1.0,
+      "accuracy": 0.86,
+      "scoreable": 50,
+      "correct": 43,
+      "error_count": 0,
+      "parse_error_count": 0,
+      "latency_p50_ms": 1387.7287080103997,
+      "latency_p95_ms": 3826.5238750027493,
+      "latency_mean_ms": 1842.132831698982,
+      "cost_total_usd": 0.00316373,
+      "cost_mean_usd": 6.32746e-05,
+      "cost_per_correct_usd": 7.357511627906977e-05,
+      "prompt_tokens_total": 25525,
+      "completion_tokens_total": 350,
+      "confusion": {
+        "classes": [
+          "FAIL",
+          "PASS"
+        ],
+        "matrix": {
+          "FAIL": {
+            "FAIL": 23,
+            "PASS": 7
+          },
+          "PASS": {
+            "FAIL": 0,
+            "PASS": 20
+          }
+        },
+        "binary": {
+          "positive_class": "PASS",
+          "negative_class": "FAIL",
+          "tp": 20,
+          "fp": 7,
+          "fn": 0,
+          "tn": 23,
+          "precision": 0.7407407407407407,
+          "recall": 1.0,
+          "f1": 0.851063829787234
+        }
+      }
+    }
+  },
+  "config_snapshot": {
+    "run_name": "hinglish-english-leak",
+    "dataset": {
+      "path": "../data/hinglish_3item_gold_50.csv",
+      "input_columns": [
+        "bot_reply"
+      ],
+      "gold_column": "english_leak_gold",
+      "id_column": "id",
+      "skip_columns": []
+    },
+    "prompt": {
+      "system": "You judge ONE reply from a Hinglish roleplay bot for ENGLISH LEAKAGE. The bot must\nanswer in casual Hinglish (everyday Hindi in Roman script, freely mixing common English\nnouns). Both narration (text inside *asterisks*) and spoken dialogue must obey this.\n\nJudge by GRAMMATICAL FRAME, not script or word count. Hinglish uses Latin letters and is\nfull of English nouns, so English words alone prove nothing.\n- Hindi frame = OK (hai, hoga, karna, kar dein, aapko, uske baad...). English nouns/verbs\n  embedded in a Hindi frame are normal Hinglish.\n- English frame = LEAK (is/are/will/you'll/need to/let me + English word order), in EITHER\n  dialogue or *narration*. One complete English-framed sentence is enough.\n- NOT a leak: embedded English nouns/borrowings (account, settings, office); proper nouns,\n  numbers, URLs, OTP; emojis; pure Devanagari Hindi; fixed interjections/greetings/\n  endearments (thank you, good night, bye, ok, please, sorry, my love).\n\nExamples:\n- \"Aapko account verify karna hoga, uske baad OTP aayega.\"            -> score 0 (clean)\n- \"*She follows you inside, locking the door.* Tum theek ho?\"          -> score 1 (English narration)\n- \"Theek hai. Let me check this and get back to you. Aap wait karein.\" -> score 1 (English sentence)\n\nOutput ONLY this JSON: {\"score\": 1} if the reply LEAKED into English, {\"score\": 0} if it\nstayed Hinglish. No prose, no markdown.\n",
+      "user_template": "Bot reply to judge:\n\n{bot_reply}\n\nRespond with ONLY: {\"score\": 0} for clean Hinglish, {\"score\": 1} for an English leak.\n"
+    },
+    "response_format": {
+      "type": "json_schema",
+      "json_schema": {
+        "name": "english_leak_score",
+        "strict": true,
+        "schema": {
+          "type": "object",
+          "required": [
+            "score"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "score": {
+              "type": "integer",
+              "enum": [
+                0,
+                1
+              ]
+            }
+          }
+        }
+      }
+    },
+    "verdict": {
+      "extract_path": "score",
+      "normalize": {
+        "0": "PASS",
+        "1": "FAIL"
+      }
+    },
+    "models": [
+      {
+        "name": "gemini-3.1-pro-preview",
+        "model": "litellm_proxy/gemini/gemini-3.1-pro-preview",
+        "temperature": 0.0,
+        "max_tokens": 1000,
+        "safety_settings": [
+          {
+            "category": "HARM_CATEGORY_HARASSMENT",
+            "threshold": "BLOCK_NONE"
+          },
+          {
+            "category": "HARM_CATEGORY_HATE_SPEECH",
+            "threshold": "BLOCK_NONE"
+          },
+          {
+            "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+            "threshold": "BLOCK_NONE"
+          },
+          {
+            "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+            "threshold": "BLOCK_NONE"
+          }
+        ]
+      },
+      {
+        "name": "gemini-3-flash",
+        "model": "litellm_proxy/gemini/gemini-3-flash-preview",
+        "temperature": 0.0,
+        "max_tokens": 1000,
+        "safety_settings": [
+          {
+            "category": "HARM_CATEGORY_HARASSMENT",
+            "threshold": "BLOCK_NONE"
+          },
+          {
+            "category": "HARM_CATEGORY_HATE_SPEECH",
+            "threshold": "BLOCK_NONE"
+          },
+          {
+            "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+            "threshold": "BLOCK_NONE"
+          },
+          {
+            "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+            "threshold": "BLOCK_NONE"
+          }
+        ]
+      },
+      {
+        "name": "qwen3.7-max",
+        "model": "litellm_proxy/openrouter-qwen3.7-max",
+        "temperature": 0.0,
+        "max_tokens": 1000,
+        "extra_body": {
+          "thinking": {
+            "type": "disabled"
+          }
+        }
+      },
+      {
+        "name": "gpt-5.5",
+        "model": "litellm_proxy/gpt-5.5",
+        "temperature": 0.0,
+        "max_tokens": 1000
+      },
+      {
+        "name": "gemma-4-31b",
+        "model": "litellm_proxy/openrouter-gemma-4-31b-it",
+        "temperature": 0.0,
+        "max_tokens": 1000,
+        "extra_body": {
+          "chat_template_kwargs": {
+            "enable_thinking": false
+          }
+        }
+      }
+    ],
+    "base_model": "gemini-3.1-pro-preview",
+    "runtime": {
+      "concurrency": 10,
+      "max_retries": 3,
+      "timeout_seconds": 60,
+      "sample_size": null
+    }
+  }
+}
