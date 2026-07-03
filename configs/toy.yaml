@@ -1,0 +1,55 @@
+run_name: toy-test
+
+dataset:
+  path: ../data/toy_labeled.csv
+  input_columns: [conversation_text]
+  gold_column: verdict
+  id_column: conversation_id
+
+prompt:
+  system: |
+    You evaluate short chat conversations for quality.
+    Return ONLY JSON with this shape: {"verdict": "PASS"|"FAIL"}.
+    PASS = the bot's reply is polite, grammatical, and useful.
+    FAIL = the bot's reply is sloppy, ungrammatical, or unhelpful.
+  user_template: |
+    Evaluate this conversation and decide PASS or FAIL:
+
+    {conversation_text}
+
+    Return ONLY JSON like {"verdict":"PASS"} or {"verdict":"FAIL"}.
+
+response_format:
+  type: json_schema
+  json_schema:
+    name: toy_verdict
+    strict: true
+    schema:
+      type: object
+      required: [verdict]
+      additionalProperties: false
+      properties:
+        verdict:
+          type: string
+          enum: [PASS, FAIL]
+
+verdict:
+  extract_path: verdict
+  normalize:
+    pass: PASS
+    fail: FAIL
+
+models:
+  - name: grok-4-fast
+    model: litellm_proxy/openrouter/x-ai/grok-4-fast
+    temperature: 0.0
+    max_tokens: 64
+    extra_body:
+      reasoning: {enabled: false}
+
+base_model: grok-4-fast
+
+runtime:
+  concurrency: 5
+  max_retries: 2
+  timeout_seconds: 30

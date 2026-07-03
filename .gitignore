@@ -1,0 +1,15 @@
+# Secrets
+.env
+
+# Benchmark outputs & datasets (may contain raw conversation data)
+runs/
+data/
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# macOS
+.DS_Store

@@ -1,0 +1,85 @@
+run_name: roleplay-quality-benchmark
+
+dataset:
+  # Path is resolved relative to this YAML file (or absolute).
+  path: ../data/labeled_sample.csv
+  input_columns: [conversation_text]
+  gold_column: verdict
+  id_column: conversation_id
+  skip_columns: []
+
+prompt:
+  system: |
+    You are a quality evaluator for Kavana, a roleplay AI chat platform.
+    Evaluate the supplied conversation and return ONLY a JSON object with
+    the keys: verdict (PASS or FAIL), quality_score (0-100), confidence
+    (low|medium|high), issues (array of {type, description, message_index}).
+    Be strict about: amateurish language, immersion breaks, repetition,
+    incorrect grammar, and policy-violating content.
+  user_template: |
+    Evaluate this conversation:
+
+    {conversation_text}
+
+    Return the JSON object only — no prose, no markdown.
+
+response_format:
+  type: json_schema
+  json_schema:
+    name: quality_evaluation
+    strict: true
+    schema:
+      type: object
+      required: [verdict, quality_score, confidence, issues]
+      additionalProperties: false
+      properties:
+        verdict:
+          type: string
+          enum: [PASS, FAIL]
+        quality_score:
+          type: integer
+        confidence:
+          type: string
+          enum: [low, medium, high]
+        issues:
+          type: array
+          items:
+            type: object
+            required: [type, description, message_index]
+            additionalProperties: false
+            properties:
+              type: {type: string}
+              description: {type: string}
+              message_index: {type: integer}
+
+verdict:
+  extract_path: verdict
+  normalize:
+    pass: PASS
+    "1": PASS
+    fail: FAIL
+    "0": FAIL
+
+models:
+  - name: grok-4-fast
+    model: litellm_proxy/openrouter/x-ai/grok-4-fast
+    temperature: 0.0
+    max_tokens: 1024
+    extra_body:
+      reasoning: {enabled: false}
+  - name: gemini-3-flash
+    model: litellm_proxy/gemini/gemini-3-flash-preview
+    temperature: 0.0
+    max_tokens: 1024
+  - name: claude-sonnet-4-6
+    model: litellm_proxy/anthropic/claude-sonnet-4-6
+    temperature: 0.0
+    max_tokens: 1024
+
+base_model: grok-4-fast
+
+runtime:
+  concurrency: 10
+  max_retries: 3
+  timeout_seconds: 60
+  sample_size: null
