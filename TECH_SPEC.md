@@ -81,7 +81,7 @@ Validation at load time:
 
 ### 3.3 LLM client (`core/llm_client.py`)
 
-Single async call path via `litellm.acompletion` against the LiteLLM proxy (`LITELLM_API_BASE`, default `https://litellm.twofourlabs.com`; auth via `LITELLM_API_KEY` from `.env`).
+Single async call path via `litellm.acompletion` against the LiteLLM proxy (`LITELLM_API_BASE`; auth via `LITELLM_API_KEY` from `.env`).
 
 Per call, returns `ModelOutput`: raw text, parsed JSON, latency ms, prompt/completion tokens, cost USD, error, parse_error flag.
 
@@ -247,7 +247,7 @@ Existing configs: `example.yaml` (roleplay quality, 3 models), `memory_eval.yaml
 
 - Python 3.10+ (uses `X | None` unions), repo venv.
 - `litellm`, `python-dotenv`, `pyyaml`; UI adds `streamlit`, `pandas`, `altair`.
-- Env: `LITELLM_API_KEY` (required), `LITELLM_API_BASE` (optional, defaults to the Two Four Labs proxy).
+- Env: `LITELLM_API_KEY` (required), `LITELLM_API_BASE` (proxy endpoint).
 - All model access goes through the LiteLLM proxy — no direct provider SDKs; cost accounting comes from the proxy.
 
 ## 9. Known limitations / future work

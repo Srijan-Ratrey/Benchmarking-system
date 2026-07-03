@@ -5,7 +5,6 @@ Usage:
     python benchmarks/benchmark.py --config <cfg> --sample 5 --dry-run
 """
 
-# claude --resume d84b8aec-0a14-46a7-8d8f-c1dce6457b7c
 from __future__ import annotations
 
 import argparse
@@ -65,12 +64,13 @@ def _setup_logging(run_dir: Path) -> None:
 
 def _setup_litellm() -> None:
     load_dotenv()
-    api_base = os.environ.get("LITELLM_API_BASE", "https://litellm.twofourlabs.com")
+    api_base = os.environ.get("LITELLM_API_BASE")
     api_key = os.environ.get("LITELLM_API_KEY")
     if not api_key:
         print("ERROR: LITELLM_API_KEY not set in environment / .env", file=sys.stderr)
         sys.exit(2)
-    litellm.api_base = api_base
+    if api_base:
+        litellm.api_base = api_base
     litellm.api_key = api_key
     litellm.suppress_debug_info = True
 
