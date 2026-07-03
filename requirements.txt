@@ -1,0 +1,8 @@
+litellm>=1.40
+python-dotenv>=1.0
+PyYAML>=6.0
+
+# Web UI (optional)
+streamlit>=1.35
+pandas>=2.0
+altair>=5.0

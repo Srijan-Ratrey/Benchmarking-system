@@ -13,7 +13,7 @@ is called.
 A small Streamlit UI ships in `app.py`:
 
 ```bash
-./venv/bin/streamlit run benchmarks/app.py
+streamlit run app.py
 ```
 
 It has three modes (sidebar):
@@ -24,21 +24,24 @@ It has three modes (sidebar):
 ## Quick start
 
 ```bash
-# 1. Make sure LITELLM_API_KEY (and optionally LITELLM_API_BASE) are in .env
+# 0. Install dependencies
+pip install -r requirements.txt
+
+# 1. Make sure LITELLM_API_KEY and LITELLM_API_BASE are in .env
 # 2. Author a YAML config (copy configs/example.yaml and edit)
 # 3. Dry-run to validate
-python benchmarks/benchmark.py --config benchmarks/configs/example.yaml --dry-run
+python benchmark.py --config configs/example.yaml --dry-run
 
 # 4. Real run (full dataset)
-python benchmarks/benchmark.py --config benchmarks/configs/example.yaml
+python benchmark.py --config configs/example.yaml
 
 # Small test: first 5 rows, one model
-python benchmarks/benchmark.py \
-    --config benchmarks/configs/example.yaml \
+python benchmark.py \
+    --config configs/example.yaml \
     --sample 5 --models grok-4-fast
 ```
 
-Each run writes to `benchmarks/runs/<timestamp>-<run_name>/`:
+Each run writes to `runs/<timestamp>-<run_name>/`:
 
 | File           | What                                                                 |
 |----------------|----------------------------------------------------------------------|

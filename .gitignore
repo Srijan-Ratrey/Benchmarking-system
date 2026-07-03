@@ -2,8 +2,10 @@
 .env
 
 # Benchmark outputs & datasets (may contain raw conversation data)
-runs/
-data/
+runs/*
+!runs/README.md
+data/*
+!data/README.md
 
 # Python
 __pycache__/

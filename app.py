@@ -1,7 +1,7 @@
 """Streamlit UI for the benchmark harness.
 
 Run:
-    streamlit run benchmarks/app.py
+    streamlit run app.py
 """
 
 from __future__ import annotations
@@ -17,15 +17,15 @@ import altair as alt
 import pandas as pd
 import streamlit as st
 
-REPO_ROOT = Path(__file__).resolve().parent.parent
-BENCH_DIR = REPO_ROOT / "benchmarks"
+REPO_ROOT = Path(__file__).resolve().parent
+BENCH_DIR = REPO_ROOT
 CONFIGS_DIR = BENCH_DIR / "configs"
 RUNS_DIR = BENCH_DIR / "runs"
 PYTHON_BIN = sys.executable
 
 if str(REPO_ROOT) not in sys.path:
     sys.path.insert(0, str(REPO_ROOT))
-from benchmarks.core.runner import pair_key, split_pair_key  # noqa: E402
+from core.runner import pair_key, split_pair_key  # noqa: E402
 
 st.set_page_config(page_title="LLM Benchmarks", layout="wide")
 

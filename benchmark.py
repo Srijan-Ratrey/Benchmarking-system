@@ -1,8 +1,8 @@
 """CLI entry point for the benchmark harness.
 
 Usage:
-    python benchmarks/benchmark.py --config benchmarks/configs/example.yaml
-    python benchmarks/benchmark.py --config <cfg> --sample 5 --dry-run
+    python benchmark.py --config configs/example.yaml
+    python benchmark.py --config <cfg> --sample 5 --dry-run
 """
 
 from __future__ import annotations
@@ -18,17 +18,17 @@ from pathlib import Path
 import litellm
 from dotenv import load_dotenv
 
-REPO_ROOT = Path(__file__).resolve().parent.parent
+REPO_ROOT = Path(__file__).resolve().parent
 sys.path.insert(0, str(REPO_ROOT))
 
-from benchmarks.core.config import (  # noqa: E402
+from core.config import (  # noqa: E402
     RunConfig,
     diff_for_extension,
     load_config,
     load_snapshot_config,
 )
-from benchmarks.core.dataset import load_dataset  # noqa: E402
-from benchmarks.core.report import (  # noqa: E402
+from core.dataset import load_dataset  # noqa: E402
+from core.report import (  # noqa: E402
     RawCsvWriter,
     existing_model_names_in_run,
     load_call_results_from_raw,
@@ -36,7 +36,7 @@ from benchmarks.core.report import (  # noqa: E402
     snapshot_config,
     write_summary,
 )
-from benchmarks.core.runner import RunResult, pair_key, run_benchmark  # noqa: E402
+from core.runner import RunResult, pair_key, run_benchmark  # noqa: E402
 
 logger = logging.getLogger("benchmarks")
 
@@ -131,7 +131,7 @@ def parse_args() -> argparse.Namespace:
     p.add_argument(
         "--dry-run", action="store_true", help="Validate + print plan, no API calls"
     )
-    p.add_argument("--runs-dir", default=str(REPO_ROOT / "benchmarks" / "runs"))
+    p.add_argument("--runs-dir", default=str(REPO_ROOT / "runs"))
     p.add_argument(
         "--add-to-run",
         metavar="RUN_DIR",
